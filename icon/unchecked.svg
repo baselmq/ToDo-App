@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+    style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+    <g>
+        <path d="M256 496C123.664 496 16 388.336 16 256S123.664 16 256 16s240 107.664 240 240-107.664 240-240 240z"
+            style="" fill="#ffffff" data-original="#ffffff" class=""></path>
+        <path
+            d="M256 32c123.512 0 224 100.488 224 224S379.512 480 256 480 32 379.512 32 256 132.488 32 256 32m0-32C114.616 0 0 114.616 0 256s114.616 256 256 256 256-114.616 256-256S397.384 0 256 0z"
+            style="" fill="#aac1ce" data-original="#aac1ce" class=""></path>
+    </g>
+</svg>

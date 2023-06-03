@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424B54;
+}
+
+.continuer {
+    width: 500px;
+    margin: 100px auto 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebecf0;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+#input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 13px;
+    font-size: 15px;
+}
+
+#btn-add {
+    border: none;
+    outline: none;
+    background-color: #424B54;
+    color: #fff;
+    padding: 13px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: center;
+    background-color: #bbc2c9;
+    transition: 500ms;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+#btn-edit {
+    background-image: url('../icon/edit.svg');
+}
+
+#btn-edit:hover {
+    background-color: #1573d2;
+    transition: 500ms;
+}
+
+#btn-delete {
+    background-image: url('../icon/delete.svg');
+}
+
+#btn-delete:hover {
+    background-color: #cd2e2e;
+    transition: 500ms;
+}
+
+#list div {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 8px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex: 1;
+
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-image: url('../icon/unchecked.svg');
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: center;
+    left: 5px;
+
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    background-image: url('../icon/checked.svg');
+}
+
+span {
+    display: inline-block;
+    flex: 1;
+    margin-left: 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
